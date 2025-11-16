@@ -1,0 +1,4 @@
+@echo off
+echo .expo/
+echo .git/
+echo node_modules/

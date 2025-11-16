@@ -1,0 +1,6 @@
+@echo off
+echo .expo/
+echo node_modules/
+echo android/
+echo ios/
+echo *.log

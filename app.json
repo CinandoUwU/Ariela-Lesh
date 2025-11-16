@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Ariela Lash",
+    "slug": "ariel-lash-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.arielalash.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3539ebb4-65b9-4f8d-899a-632dcfc6c4ab"
+      }
+    },
+    "owner": "pedro_bugs14"
+  }
+}
